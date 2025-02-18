@@ -3,9 +3,6 @@ import time
 import pytest
 from pytest_bdd import given, when, then, parsers, scenarios
 from selenium.common.exceptions import StaleElementReferenceException
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver import ActionChains
-from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
 
 from utils.api import BrowserAPI
