@@ -17,3 +17,5 @@ pytest -s -m some_test_name
 
 Рабочий пример:
 pytest -s -m test_example
+
+Тесты [тут](./tests/features/core/main_page.feature)
