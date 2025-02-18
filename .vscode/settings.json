@@ -1,0 +1,26 @@
+{
+  "cucumberautocomplete.steps": ["tests/step_defs/*.py"],
+  "cucumberautocomplete.syncfeatures": "tests/features/core/*feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.strictGherkinValidation": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.skipDocStringsFormat": true,
+  "cucumberautocomplete.formatConfOverride": {
+    "And": 3,
+    "But": "relative"
+  },
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  },
+  "cucumberautocomplete.gherkinDefinitionPart": "@(given|when|then|step)\\((?:parsers.parse\\(|)",
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "/\\{.*\\}/",
+      "value": ".*"
+    }
+  ]
+}
